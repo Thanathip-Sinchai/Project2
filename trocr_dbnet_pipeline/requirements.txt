@@ -1,0 +1,7 @@
+torch
+transformers
+pillow
+opencv-python
+tqdm
+paddleocr
+paddlepaddle>=2.5.0  # For GPU install, choose the correct wheel from PaddlePaddle site

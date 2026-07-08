@@ -1,0 +1,35 @@
+# Python
+**/.venv/
+**/venv/
+**/__pycache__/
+*.pyc
+
+# Flutter
+**/build/
+**/.dart_tool/
+**/.gradle/
+
+# Android
+**/android/.gradle/
+
+# OCR Models
+**/trocr_model/**
+**/trocr_model_gpu/**
+
+# Temp
+**/tmp_crops/
+**/outputs/
+
+# APK
+*.apk
+
+# Dataset
+trocr_dbnet_pipeline/trocr_full_pipeline/data/
+
+# Temporary images
+trocr_dbnet_pipeline/trocr_full_pipeline/tmp_crops/
+trocr_dbnet_pipeline/trocr_full_pipeline/server_api/tmp_crops/
+
+# Trained models
+trocr_dbnet_pipeline/trocr_full_pipeline/trocr_model/
+trocr_dbnet_pipeline/trocr_full_pipeline/trocr_model_gpu/
